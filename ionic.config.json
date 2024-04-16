@@ -1,0 +1,7 @@
+{
+  "name": "consultorio-frontend",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
