@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lista de Médicos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let medico of medicos">
+      <ion-label>{{ medico.nombre }} - {{ medico.especialidad }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
